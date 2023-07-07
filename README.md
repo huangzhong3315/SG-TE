@@ -35,7 +35,7 @@ SG-TE
       subject_28/
    annotations.csv
 
-[Note] 0: Happiness; 1: Sadness; 2: Surprise; 3: Fear; 4: Disgust; 5: Anger`
+[Note] 0: Happiness; 1: Sadness; 2: Surprise; 3: Fear; 4: Disgust; 5: Anger `
 `self.view.backgroundColor = [UIColor colorForHex:@"6FBF5E"];`
 
 * Step 2: create a folder called weights to hold the model files
