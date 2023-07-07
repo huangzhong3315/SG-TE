@@ -116,6 +116,5 @@ class SprTransformer(nn.Module):
         x = self.Spatial_forward_features(x)
         return x
 
-#
 # model = SprTransformer()
 # print(model)
