@@ -1,17 +1,17 @@
 SG-TE
 =======
 
-Requirements
+#Requirements
 
-python = 3.8.13
-pytorch = 1.7.0
-matplotlib = 3.5.3
-sklearn = 1.1.3
-numpy = 1.23.3
-einops = 0.6.0
-timm = 0.6.11
+*python = 3.8.13
+*pytorch = 1.7.0
+*matplotlib = 3.5.3
+*sklearn = 1.1.3
+*numpy = 1.23.3
+*einops = 0.6.0
+*timm = 0.6.11
 
-Training
+#Training
 
 Step 1: download BRED dataset, and make sure it have the structure like following:
 
