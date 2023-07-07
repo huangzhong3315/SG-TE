@@ -1,5 +1,5 @@
-Training
-Step 1: download BRED dataset, and make sure it have the structure like following:
+# Training
+__Step 1:__ download BRED dataset, and make sure it have the structure like following:
 
 ./BRED/
    game/
