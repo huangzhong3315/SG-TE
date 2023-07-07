@@ -13,7 +13,7 @@ SG-TE
 
 # Training
 
-Step 1: download BRED dataset, and make sure it have the structure like following:
+* Step 1: download BRED dataset, and make sure it have the structure like following:
 
 ./BRED/
    game/
@@ -36,11 +36,12 @@ Step 1: download BRED dataset, and make sure it have the structure like followin
    annotations.csv
 
 [Note] 0: Happiness; 1: Sadness; 2: Surprise; 3: Fear; 4: Disgust; 5: Anger
+`self.view.backgroundColor = [UIColor colorForHex:@"6FBF5E"];`
 
-Step 2: create a folder called weights to hold the model files
+* Step 2: create a folder called weights to hold the model files
 
-Step 3: change annotations.csv_path in datasets.py to your path
+* Step 3: change annotations.csv_path in datasets.py to your path
 
-Step 4: get the data path and labels from the annotations.csv file in your BRED dataset path; get the coordinates of face, bodies, hands_right, hands_left of each frame from the json file; then assign them to data in main.py
+* Step 4: get the data path and labels from the annotations.csv file in your BRED dataset path; get the coordinates of face, bodies, hands_right, hands_left of each frame from the json file; then assign them to data in main.py
 
-Step 5: run python main.py 
+* Step 5: run python main.py 
