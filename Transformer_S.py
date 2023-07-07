@@ -84,7 +84,6 @@ class Block(nn.Module):
 
 
 class SprTransformer(nn.Module):
-    # 骨骼点数存疑
     def __init__(self, num_joints=95, in_chans=2, embed_dim_ratio=32, depth=4,
                  num_heads=4, mlp_ratio=2., qkv_bias=True, qk_scale=None,
                  drop_rate=0., attn_drop_rate=0., drop_path_rate=0.2,  norm_layer=None):
